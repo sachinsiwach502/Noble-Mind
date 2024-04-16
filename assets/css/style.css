@@ -219,3 +219,24 @@
     background-color: var(--color-white);
     box-shadow: -2px 1px 5px 1px var(--primary-color) !important;
 }
+
+.pt_67 {
+    padding-top: 67px;
+}
+
+.top_blue_circle {
+    top: 0;
+    left: 0;
+    transform: translate(-37px, 16px);
+}
+
+.bottom_blue_circle {
+    bottom: 0;
+    right: 0;
+    transform: translate(30%, 50%);
+}
+
+.py_110 {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}

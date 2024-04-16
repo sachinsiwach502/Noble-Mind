@@ -19,7 +19,44 @@
 .mission_center_icon {
     top: 50%;
     left: 50%;
-    transform: translate(-13%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.nav-links {
+    position: relative;
+
+}
+
+.main-heading {
+    max-width: 948px;
+}
+
+.main-heading span {
+    color: var(--primary-color);
+}
+
+.pt_44 {
+    padding-top: 44px;
+}
+
+.nav-links::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    width: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: all 300ms linear;
+}
+
+.nav-links:hover::after {
+    width: 100%;
+}
+
+.gap_32 {
+    gap: 32px;
 }
 
 .bttn {

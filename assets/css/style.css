@@ -240,3 +240,30 @@
     padding-top: 110px;
     padding-bottom: 110px;
 }
+
+.my_150 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.bg-img {
+    background-image: url(../img/png/purpol_card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.py_82 {
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+
+.started_btn {
+    border: none;
+    padding: 16px 42px;
+    border-radius: 61px;
+    background-color: var(--color-white);
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -56,3 +56,50 @@
 .pb_152 {
     padding-bottom: 152px;
 }
+
+.box_border {
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 16px;
+    min-height: 270px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    transition: all 300ms linear;
+}
+
+.p_14 {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: var(--svg-bg-color);
+    transition: all 300ms linear;
+}
+
+.pt_20 {
+    padding-top: 20px;
+}
+
+.svg_icon path {
+    fill: url(#paint1_linear_40432_2511);
+}
+
+.box_border:hover {
+    border: 1px solid transparent;
+    background-color: var(--color-white);
+}
+
+.box_border:hover .p_14 {
+    background: var(--hover-svg-bg);
+}
+
+.box_border:hover .p_14 svg path {
+    fill: var(--color-white);
+}
+
+.services-bg-color {
+    background-color: var(--bg-color);
+}
+
+.pt-119 {
+    padding-top: 119px;
+}

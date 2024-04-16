@@ -27,7 +27,8 @@
     --get_btn: #F36A3E;
     --svg-bg-color: linear-gradient(130.88deg, rgba(168, 84, 233, 0.12) -9.14%, rgba(79, 145, 252, 0.12) 283.16%);
     --border-color: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
-
+--hover-svg-bg:linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+--bg-color:#EFEFEF;
 
     /* font-family */
     --fm-poppins: "Poppins", sans-serif;

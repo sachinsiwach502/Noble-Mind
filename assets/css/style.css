@@ -1,0 +1,54 @@
+@import url("./root.css");
+
+.heading span {
+    color: var(--primary-color);
+}
+
+.svg_border {
+    padding: 12px 8px;
+    border-radius: 50%;
+    background: var(--svg-bg-color);
+}
+
+.bordr {
+    /* padding: 12px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--primary-color);
+    transition: all 200ms linear; */
+
+    border: 1px solid transparent;
+    border-image: var(--border-color);
+    border-image-slice: 1;
+    padding: 12px;
+    transition: all 200ms linear;
+    border-radius: 15px;
+}
+
+/* .bordr {
+    position: relative;
+}
+
+.bordr::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 15px;
+    padding: 1px;
+    background: var(--border-color);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+} */
+
+.bordr:hover {
+    box-shadow: -2px 1px 5px 1px var(--primary-color);
+    border: 1px solid transparent;
+}
+
+.mt_12 {
+    margin-top: 12px;
+}

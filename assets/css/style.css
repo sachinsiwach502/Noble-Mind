@@ -195,6 +195,25 @@
     background-color: var(--color-white);
 }
 
+.preloader_logo {
+    animation: logo 2s infinite;
+}
+
+.txt-shdow {
+    text-shadow: 0px 0px 15px var(--primary-color);
+    animation: txt 1s infinite;
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 105%;
+    top: 0;
+    right: 0;
+    background-color: black;
+    z-index: 100;
+}
+
 .box_border:hover {
     border: 1px solid transparent;
     background-color: var(--color-white);
@@ -301,6 +320,7 @@
     padding-bottom: 67px;
 }
 
+
 /*+++++++++++++++++++++++++++++++++++++++ animation +++++++++++++++++++++++++++++*/
 @keyframes toTop {
     50% {
@@ -309,6 +329,42 @@
 
     100% {
         transform: translate(0px);
+    }
+}
+
+@keyframes logo {
+    .25% {
+        transform: translateY(20px);
+    }
+
+    .50% {
+        transform: translateX(20px);
+    }
+
+    .75% {
+        transform: translateY(-20px);
+    }
+
+    .100% {
+        transform: translateX(20px);
+    }
+}
+
+@keyframes txt {
+    .0% {
+        transform: scale(0);
+    }
+
+    .25% {
+        transform: scale(1);
+    }
+
+    .50% {
+        transform: scale(1.5);
+    }
+
+    .100% {
+        transform: scale(0);
     }
 }
 

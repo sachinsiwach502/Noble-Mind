@@ -88,6 +88,21 @@
     transition: all 300ms linear;
 }
 
+.scroll_to_top {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    cursor: pointer;
+    z-index: 30;
+    animation: toTop 1s infinite;
+    transition: all 300ms linear;
+}
+
+
+
 .pt_20 {
     padding-top: 20px;
 }
@@ -173,6 +188,11 @@
 .bordr:hover::before {
     box-shadow: -2px 1px 5px 1px var(--color-white);
     border: 1px solid transparent;
+}
+
+.scroll_to_top:hover {
+    box-shadow: -1px 1px 5px 5px var(--primary-color);
+    background-color: var(--color-white);
 }
 
 .box_border:hover {
@@ -279,6 +299,17 @@
 
 .pb_67 {
     padding-bottom: 67px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++ animation +++++++++++++++++++++++++++++*/
+@keyframes toTop {
+    50% {
+        transform: translateY(4px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
 }
 
 /*+++++++++++++++++++++++++++++++++++++ ellipse ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/

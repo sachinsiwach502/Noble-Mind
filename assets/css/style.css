@@ -35,9 +35,7 @@
     color: var(--primary-color);
 }
 
-.pt_44 {
-    padding-top: 44px;
-}
+
 
 .nav-links::after {
     content: "";
@@ -55,9 +53,7 @@
     width: 100%;
 }
 
-.gap_32 {
-    gap: 32px;
-}
+
 
 .bttn {
     background-color: var(--primary-color);
@@ -67,29 +63,8 @@
     transition: all 300ms linear;
 }
 
-.pt-152 {
-    padding-top: 152px;
-}
 
-.mt_42 {
-    margin-top: 42px;
-}
 
-.bordr {
-    /* padding: 12px;
-    border-radius: 15px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: var(--primary-color);
-    transition: all 200ms linear; */
-
-    /* border: 1px solid transparent;
-    border-image: var(--border-color);
-    border-image-slice: 1;
-    padding: 12px;
-    transition: all 200ms linear;
-    border-radius: 15px; */
-}
 
 .bordr {
     position: relative;
@@ -120,13 +95,6 @@
     bottom: 0;
 }
 
-.mt_12 {
-    margin-top: 12px;
-}
-
-.pb_152 {
-    padding-bottom: 152px;
-}
 
 .box_border {
     border: 1px solid rgba(0, 0, 0, 0.24);
@@ -172,9 +140,7 @@
     background-color: var(--bg-color);
 }
 
-.pt-119 {
-    padding-top: 119px;
-}
+
 
 .right_top_0 {
     top: 0;
@@ -186,17 +152,7 @@
     bottom: 0;
 }
 
-.pt_152 {
-    padding-top: 152px;
-}
 
-.pb_122 {
-    padding-bottom: 122px;
-}
-
-.mt_52 {
-    margin-top: 52px;
-}
 
 .choose-border:hover {
     box-shadow: 0px 9px 50px 0px rgba(0, 0, 0, 0.12);
@@ -220,9 +176,6 @@
     box-shadow: -2px 1px 5px 1px var(--primary-color) !important;
 }
 
-.pt_67 {
-    padding-top: 67px;
-}
 
 .top_blue_circle {
     top: 0;
@@ -236,6 +189,51 @@
     transform: translate(30%, 50%);
 }
 
+
+
+.bg-img {
+    background-image: url(../img/png/purpol_card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.started_btn {
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+}
+
+.start_btn {
+    border: none;
+    padding: 16px 42px;
+    border-radius: 61px;
+    background-color: var(--color-white);
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++ spacing +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.py_82 {
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+
+.py_82 {
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+
+.py_82 {
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+
+.pt_44 {
+    padding-top: 44px;
+}
+
 .py_110 {
     padding-top: 110px;
     padding-bottom: 110px;
@@ -246,24 +244,56 @@
     margin-bottom: 150px;
 }
 
-.bg-img {
-    background-image: url(../img/png/purpol_card.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.pt_152 {
+    padding-top: 152px;
 }
 
-.py_82 {
-    padding-top: 82px;
-    padding-bottom: 82px;
+.pb_122 {
+    padding-bottom: 122px;
 }
 
-.started_btn {
-    border: none;
-    padding: 16px 42px;
-    border-radius: 61px;
-    background-color: var(--color-white);
-    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.mt_52 {
+    margin-top: 52px;
+}
+
+.pt-119 {
+    padding-top: 119px;
+}
+
+.mt_12 {
+    margin-top: 12px;
+}
+
+.gap_32 {
+    gap: 32px;
+}
+
+.pb_152 {
+    padding-bottom: 152px;
+}
+
+.pt-152 {
+    padding-top: 152px;
+}
+
+.mt_42 {
+    margin-top: 42px;
+}
+
+.pt_91 {
+    padding-top: 91px;
+}
+
+.gap_12 {
+    gap: 12px;
+}
+
+.social-media {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.16);
+    justify-content: center;
+    border-radius: 50%;
 }

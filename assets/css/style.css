@@ -24,7 +24,7 @@
 
 .nav-links {
     position: relative;
-
+    padding-bottom: 5px;
 }
 
 .main-heading {
@@ -35,7 +35,33 @@
     color: var(--primary-color);
 }
 
+.hero_left_ellips {
+    top: 0;
+    left: 0;
+}
 
+.our_vision_right {
+    top: 0;
+    right: 0;
+    transform: translateY(-40%);
+}
+
+.our_vision_left {
+    top: 0;
+    left: 0;
+    transform: translateY(-40%);
+}
+
+.hero_right_ellips {
+    top: 7%;
+    right: 0;
+}
+
+.behind-img-ellips {
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
 
 .nav-links::after {
     content: "";
@@ -180,13 +206,13 @@
 .top_blue_circle {
     top: 0;
     left: 0;
-    transform: translate(-37px, 16px);
+    transform: translate(-50px, -50px);
 }
 
 .bottom_blue_circle {
     bottom: 0;
     right: 0;
-    transform: translate(30%, 50%);
+    transform: translate(50%, 50%);
 }
 
 
@@ -212,6 +238,37 @@
     padding: 16px 42px;
     border-radius: 61px;
     background-color: var(--color-white);
+}
+
+.social-media {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.16);
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 300ms linear;
+}
+
+.social-media:hover {
+    transform: scale(1.1);
+    box-shadow: -1px 1px 5px 1px var(--primary-color);
+}
+
+.footer-links {
+    transition: all 300ms linear;
+}
+
+.footer-links:hover {
+    opacity: 1 !important;
+    text-shadow: -10px 1px 5px 1px var(--primary-color);
+}
+
+.footer-underline {
+    width: 100%;
+    height: 1px;
+    background-color: var(--primary-color);
 }
 
 /*++++++++++++++++++++++++++++++++++++++++++ spacing +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -288,33 +345,6 @@
     gap: 12px;
 }
 
-.social-media {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.16);
-    justify-content: center;
-    border-radius: 50%;
-    transition: all 300ms linear;
-}
-
-.social-media:hover {
-    transform: scale(1.1);
-    box-shadow: -1px 1px 5px 1px var(--primary-color);
-}
-
-.footer-links {
-    transition: all 300ms linear;
-}
-
-.footer-links:hover {
-    opacity: 1 !important;
-    text-shadow: -10px 1px 5px 1px var(--primary-color);
-}
-
-.footer-underline {
-    width: 100%;
-    height: 1px;
-    background-color: var(--primary-color);
+.pb_67 {
+    padding-bottom: 67px;
 }

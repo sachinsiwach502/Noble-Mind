@@ -12,21 +12,29 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/png/fav-icon.png">
 
 </head>
 
-<header>
+<header class="position-relative">
+    <div class="position-absolute hero_left_ellips">
+        <img src="./assets/img/png/main-left-ellips.png" alt="ellips" class="w-100">
+    </div>
+    <div class="position-absolute hero_right_ellips">
+        <img src="./assets/img/png/main-right-ellips.png" alt="ellips" class="w-100">
+    </div>
     <nav class="py-3">
         <div class="container_hero position-relative">
             <div class="d-flex align-items-center justify-content-between">
-                <span>
+                <span class="cursor">
                     <img src="./assets/img/png/nav-icon.png" alt="nav-icon" class="w-100">
                 </span>
                 <div class="d-flex gap_32 menuList">
-                    <a href="" class="fm-sans fw-400 fs-16 lh-24 opacity-75 text-black nav-links">Home</a>
-                    <a href="" class="fm-sans fw-400 fs-16 lh-24 opacity-75 text-black nav-links">About Us</a>
-                    <a href="" class="fm-sans fw-400 fs-16 lh-24 opacity-75 text-black nav-links">Solutions</a>
-                    <a href="" class="fm-sans fw-400 fs-16 lh-24 opacity-75 text-black nav-links">Resources</a>
+                    <a href="#home" class="fm-sans fw-400 fs-16 lh-24 opacity-75 text-black nav-links">Home</a>
+                    <a href="#about" class="fm-sans fw-400 fs-16 lh-24 opacity-75 text-black nav-links">About Us</a>
+                    <a href="#solution" class="fm-sans fw-400 fs-16 lh-24 opacity-75 text-black nav-links">Solutions</a>
+                    <a href="#resources "
+                        class="fm-sans fw-400 fs-16 lh-24 opacity-75 text-black nav-links">Resources</a>
                     <button class="bttn text-white fs-16 fw-700 lh-24 fm-sans d-block d-lg-none">Contact Us</button>
                 </div>
                 <div class="menubar d-lg-none d-flex">
@@ -39,14 +47,16 @@
         </div>
     </nav>
     <!----------------------- hero-section --------------------->
-    <section class="pb_152">
+    <section class="pb_152" id="home">
+
         <div class="container_hero d-flex align-items-center justify-content-center flex-column">
             <h1 class="fs-64 lh-71 fw-700 fm-sans main-heading text-center pt_44">Elevate Your Solutions with
                 <span>Noble Mind
                     IT
                 </span>
             </h1>
-            <p class="mb-0 fs-16 lh-24 fw-400 fm-sans opacity-75 pt-3 text-center max-w-829">At Noble Mind IT, we're
+            <p class="mb-0 fs-16 lh-24 fw-400 fm-sans opacity-75 pt-3 text-center max-w-829 pb_67">At Noble Mind IT,
+                we're
                 dedicated to
                 taking your
                 IT solutions to new heights. In today's ever-evolving technological
@@ -69,16 +79,16 @@
 <main>
     <!------------------------ our mission --------------------------------->
     <section class="position-relative">
-        <div class="position-absolute  mission-left-bottom-ellips">
-            <img src="./assets/img/png/mission-left-bottm-ellips.png" alt="" class="w-100">
-        </div>
         <div class="container_hero">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6 position-relative">
-                    <div class="position-absolute mission_center_icon">
+                    <div class="position-absolute mission_center_icon z-3">
                         <img src="./assets/img/png/fav-icon.png" alt="fav-icon">
                     </div>
-                    <div class="row">
+                    <div class="position-absolute behind-img-ellips">
+                        <img src="./assets/img/png/our-mission-behind-img-ellips.png" alt="ellips" class="w-100">
+                    </div>
+                    <div class="row position-relative z-2">
 
                         <div class="col-6 p-1">
                             <img src="./assets/img/png/mission-1.png" alt="mission" class="w-100 mb-2">
@@ -111,8 +121,14 @@
     </section>
 
     <!----------------------- Our Vision ------------------------------------>
-    <section class="pt-152">
-        <div class="container_hero pb_152">
+    <section class="pt-152 position-relative" id="about">
+        <div class="position-absolute our_vision_left">
+            <img src="./assets/img/png/our-vision-left.png" alt="ellips" class="w-100">
+        </div>
+        <div class="position-absolute our_vision_right">
+            <img src="./assets/img/png/our-vision-right.png" alt="ellips" class="w-100">
+        </div>
+        <div class="container_hero pb_152 position-relative z-2">
             <div class="row d-flex align-items-center justify-content-center flex-column-reverse flex-lg-row">
                 <div class="col-lg-6 col-12">
                     <h1 class="fs-48 fw-700 fm-sans lh-62 heading mb-0 text-center text-lg-start">Our
@@ -425,7 +441,7 @@
     </section>
 
     <!--------------------------------- Why Choose Us ----------------------------->
-    <section class="position-relative pb_152">
+    <section class="position-relative pb_152" id="solution">
         <div class="position-absolute choose_right_top_ellips">
             <img src="./assets/img/png/choose-right-top.png" alt="ellips" class="w-100">
         </div>
@@ -686,7 +702,13 @@
     </section>
 
     <!------------------------------ compains ------------------------>
-    <section class="services-bg-color">
+    <section class="services-bg-color position-relative" id="resources">
+        <div class="position-absolute bottom-0 start-0">
+            <img src="./assets/img/png/compinies-left-bottom-0.png" alt="ellips" class="w-100">
+        </div>
+        <div class="position-absolute end-0 top-0">
+            <img src="./assets/img/png/compinies-right-top-0.png" alt="ellips" class="w-100">
+        </div>
         <div class="container_hero py_110">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6">
@@ -733,7 +755,7 @@
 
 <footer class="bg-black">
     <div class="container_hero ">
-        <div class="row pt_91 pb_152">
+        <div class="row pt_91 pb_152 justify-content-between">
             <div class="col-lg-4">
                 <img src="./assets/img/png/footer_logo.png" alt="logo">
                 <p class="fm-sans fs-14 fw-400 lh-24 opacity-75 text-white pt-3">Join us on the journey to embrace the
@@ -793,8 +815,8 @@
             </div>
             <div class="col-lg-8">
                 <div class="row">
-                    <div class="col-md-4 col-6">
-                        <ul>
+                    <div class="col-md-4 col-6 mt-5 mt-lg-0 ps-lg-5">
+                        <ul class="ps-0">
                             <li class="pb-1">
                                 <h2 class="text-white fm-sans fw-700 fs-16 lh-24  mb-0">Main Menu</h2>
                             </li>
@@ -815,8 +837,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 col-6">
-                        <ul>
+                    <div class="col-md-3 col-6 mt-5 mt-lg-0">
+                        <ul class="ps-0">
                             <li class="pb-1">
                                 <h2 class="text-white fm-sans fw-700 fs-16 lh-24  mb-0">Legal</h2>
                             </li>
@@ -827,7 +849,7 @@
                                     class="opacity-75 fw-400 fs-16 lh-24 text-white  footer-links">Privacy</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4 col-6">
+                    <div class="col-md-5 col-6 mt-5 mt-lg-0">
                         <h2 class="text-white fm-sans fw-700 fs-16 lh-24 pb-1 mb-0">Contact Info</h2>
                         <a href="tel:080984" class="d-flex align-items-center gap-3 pt-2">
                             <span>

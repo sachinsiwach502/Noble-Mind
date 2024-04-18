@@ -45,4 +45,5 @@ setTimeout(() => {
     preloader.classList.add("d-none");
 }, 3000);
 
-
+// animation-----------------
+ AOS.init({duration:1500});

@@ -601,3 +601,14 @@ a {
 
 
 }
+
+@media (max-width:576px) {
+    .md-fs-lh-40-54{
+        font-size: var(--fs-50);
+        line-height: var(--lh-54);
+    }
+    .fs-lh-30-54{
+        font-style: var(--fs-30);
+        line-height: var(--lh-54);
+    }
+}

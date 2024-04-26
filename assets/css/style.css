@@ -196,7 +196,7 @@
 }
 
 .scroll_to_top:hover {
-    box-shadow: -1px 1px 5px 5px var(--primary-color);
+    box-shadow: -1px 1px 5px 5px var(--black-color);
     background-color: var(--color-white);
 }
 
